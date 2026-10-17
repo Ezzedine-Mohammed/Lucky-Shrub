@@ -37,6 +37,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     gap: 20px 0;
     background-color: #f6ffd2;
+    scroll-behavior: smooth;
 
 }
 
@@ -252,7 +253,6 @@ footer {
 
         h3 {
             font-size: 24px;
-            margin-bottom: 6px;
         }
 
         ul {
@@ -272,6 +272,10 @@ footer {
             .whatsapp:hover {
                 color: #25d366;
             }
+        }
+
+        .site-footer {
+            padding-inline: 40px;
         }
     }
 }
