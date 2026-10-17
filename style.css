@@ -279,3 +279,11 @@ footer {
         }
     }
 }
+
+/* Highlight links when navigating with the keyboard */
+nav a:focus-visible,
+.social-media-links a:focus-visible {
+    outline: 2px solid #f6ffd2;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
